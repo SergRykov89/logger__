@@ -16,7 +16,7 @@ public class Filter {
         logger.log("Запускаем фильтрацию");
         for (Integer a : source) {
             if (a < treshold) {
-                logger.log("Элемент " +  a + " проходит фильтрацию");
+                logger.log("Элемент " + a + " проходит фильтрацию");
                 result.add(a);
             } else {
                 logger.log("Элемент " + a + " не проходит фильтрацию");
